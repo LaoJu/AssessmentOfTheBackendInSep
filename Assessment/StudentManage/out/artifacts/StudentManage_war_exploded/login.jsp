@@ -10,7 +10,6 @@
     String path = request.getContextPath();
     String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 
-   // out.println("<SCRIPT LANGUAGE='JavaScript'>alert('用户名或密码不正确！');location.href='login.jsp';</SCRIPT>");
 %>
 <!DOCTYPE html>
 <html lang="zh-cn">
